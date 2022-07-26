@@ -18,6 +18,7 @@ namespace AddressBook_ADO.NET
         public long PhoneNumber { get; set; }
         public string Email { get; set; }
         public string Type { get; set; }
+        public DateOnly Date { get; set; }
 
     }
 }

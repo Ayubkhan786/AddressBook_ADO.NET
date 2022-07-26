@@ -45,5 +45,22 @@ namespace AddressBook_ADO.NET
                 Console.WriteLine(ex.Message);
             }
         }
+        public void AddContact()
+        {
+            string select = @"Insert into AddressBook (FirstName ,LastName,Address,City,State,zip,PhoneNumber,Email,Type) VALUES( 'Priya','Moni','Hungama','Gujrat','Andra Pradesh',785457,9874563210,'moni@gmail.com','Friend')";
+            SqlCommand cmd = new SqlCommand(select, sql);
+            cmd.CommandType = CommandType.Text;
+            sql.Open();
+            try
+            {
+                var con = cmd.ExecuteScalar();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            sql.Close();
+        }
     }
 }

@@ -4,3 +4,4 @@ Console.WriteLine("Welcome to AddressBook ");
 
 AddressBook Book = new AddressBook();
 Book.RetrieveAll();
+Book.AddContact();

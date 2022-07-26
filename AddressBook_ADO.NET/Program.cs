@@ -7,4 +7,5 @@ AddressBook Book = new AddressBook();
 //Book.AddContact();
 //Book.AddDate();
 //Book.UpdateDate();
-Book.RetrieveFromDate();
+//Book.RetrieveFromDate();
+Book.RetrieveByCity();

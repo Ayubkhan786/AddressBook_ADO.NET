@@ -176,5 +176,23 @@ namespace AddressBook_ADO.NET
             }
             return contact.FirstName;
         }
+        public int RetrieveByCity()
+        {
+            string select = @"SELECT COUNT (City) FROM Addressbook where City ='Dindigul'";
+            SqlCommand command = new SqlCommand(select, sql);
+            Contact contact = new Contact();
+            int count = 0;
+            sql.Open();
+            try
+            {
+                count = (int)command.ExecuteScalar();
+                Console.WriteLine("No Of Contacts from this city: " + count);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return count;
+        }
     }
 }

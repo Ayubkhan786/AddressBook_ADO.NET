@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_Test\\AddressBook_Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_ADO.NET\\AddressBook_ADO.NET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_ADO.NET\\AddressBook_ADO.NET.csproj",
+        "projectName": "AddressBook_ADO.NET",
+        "projectPath": "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_ADO.NET\\AddressBook_ADO.NET.csproj",
+        "packagesPath": "C:\\Users\\Ayub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_ADO.NET\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ayub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_Test\\AddressBook_Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_Test\\AddressBook_Test.csproj",
+        "projectName": "AddressBook_Test",
+        "projectPath": "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_Test\\AddressBook_Test.csproj",
+        "packagesPath": "C:\\Users\\Ayub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ayub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_ADO.NET\\AddressBook_ADO.NET.csproj": {
+                "projectPath": "C:\\Users\\Ayub\\source\\repos\\AddressBook_ADO.NET\\AddressBook_ADO.NET\\AddressBook_ADO.NET.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
